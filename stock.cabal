@@ -1,0 +1,18 @@
+name: stock
+version: 0.0.1
+synopsis: Indonesia long-term stock market research assistant
+license: BSD3
+license-file: LICENSE
+author: Erik Dominikus
+maintainer: haskell@edom.web.id
+copyright: (C) 2015 Erik Dominikus
+build-type: Simple
+cabal-version: >= 1.10
+
+library
+    exposed-modules:
+        Main
+    build-depends:
+        base >= 4
+        , threepenny-gui
+    default-language: Haskell98
